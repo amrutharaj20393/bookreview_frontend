@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+*{
+  font-family: "Playfair Display", serif;
+}
+
+header{
+  background-image: url('https://img.pikbest.com/backgrounds/20250129/bookstore-interior-with-bookshelf-and-sofa-vector-illustration_11469676.jpg!w700wp');
+  height: 500px;
+  width:100%;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#main{
+  height:500Px;
+  width:100%;
+  background-color:rgba(0,0,0,0.438)
+
+}
+
+#login{
+  background-image: url('https://static.vecteezy.com/system/resources/thumbnails/001/971/264/small_2x/beautiful-cherry-blossom-with-bokeh-lights-background-concept-free-vector.jpg');
+  height: 100vh;
+  width:100%;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
