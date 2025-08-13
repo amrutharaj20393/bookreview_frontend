@@ -24,7 +24,11 @@ User authentication with JWT
 - RESTful API backend with Express and MongoDB
 
 # Clone the Repository
+frontend github repository: https://github.com/amrutharaj20393/bookreview_frontend.git
 
+backend github repository:https://github.com/amrutharaj20393/bookreview_backend.git
+
+vercel link:https://bookreview-frontend-kappa.vercel.app/
 # Configure Environment Variables
 
 DATABASE=mongodb+srv://amrutharaj20393:amrutha@cluster0.qakhgut.mongodb.net/bookstore?retryWrites=true&w=majority&appName=Cluster0

@@ -101,7 +101,7 @@ const { setAddBookStatus } = useContext(addBookStatusContext)
             <div className='grid grid-cols-3 p-3 '>
                 <div className='flex items-center'>
                     <img src="https://cdn-icons-png.flaticon.com/512/5402/5402751.png" alt="" style={{ width: '50px,', height: '50px' }} />
-                    <h1 className='text-1xl  md:hidden ms-2'>BOOK STORE</h1>
+                    <h1 className='text-1xl text-blue-700 md:hidden ms-2'>BOOK REVIEW APP</h1>
                 </div>
                 <div className='md:flex justify-center items-center hidden'><h1 className='text-3xl'>BOOK STORE</h1></div>
                 <div className='md:flex justify-end items-center hidden'>
