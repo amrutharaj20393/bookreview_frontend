@@ -49,3 +49,12 @@ GET     /viewbook/${id}  for get a single book
 PUT     /reviewbook       for add review to a book
 GET     /allhomebook      get latest 4 book details for home page
 
+## Screenshots
+
+![LoginPage Screenshot](./assets/loginimage.png)
+![Register Screenshot](./assets/registerpage.png)
+![Homepage Screenshot](./assets/homepage.png)
+![allBooks Screenshot](./assets/allBooks.png)
+![a book details Screenshot](./assets/abookdetails.png)
+![Add new Book Screenshot](./assets/addBookPage.png)
+![Add Review Screenshot](./assets/addreview.png)

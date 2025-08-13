@@ -94,7 +94,7 @@ function Home() {
                         </p>
                     </div>
                     <div className='px-10 pt-8'>
-                        <img src="https://media.gettyimages.com/id/1868371472/photo/atlantic-city-nj-books-successfully-defended-by-martha-hickson-on-december-5-2023-in-atlantic.jpg?s=612x612&w=gi&k=20&c=NZdNM8pStBfFMkyTXofHUGFL11injzZRdoVN8uyLfI4=" alt="" className='w-full' />
+                        <img src="https://media.istockphoto.com/id/1362556947/vector/bookstore-landing-page-concept.jpg?s=612x612&w=0&k=20&c=IuALjcUge4wQ3rNaxMEIS41EfbfMJDQSnr9MJpasWng=" alt="" className='w-full' />
                     </div>
                 </div>
             </section>
