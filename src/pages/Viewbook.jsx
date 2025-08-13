@@ -13,8 +13,7 @@ function Viewbook() {
         description: "",
         imageurl: "",
         rating: "",
-        comment: "",
-        id: ""
+        comment: ""
     })
 
     const [token, setToken] = useState("")
@@ -24,8 +23,7 @@ function Viewbook() {
         description: "",
         imageurl: "",
         rating: "",
-        comment: "",
-        id: ""
+        comment: ""
     })
 
     const { id } = useParams()//hook to access data from parameter
