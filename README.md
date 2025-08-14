@@ -38,7 +38,7 @@ emailid:amrutha@gmail.com
 password:amrutha123
 # Configure Environment Variables
 
-DATABASE=mongodb+srv://amrutharaj20393:amrutha@cluster0.qakhgut.mongodb.net/bookstore?retryWrites=true&w=majority&appName=Cluster0
+.env variable=DATABASE
 JWT_SECRET=secretkey
 
 # Run the application
