@@ -186,7 +186,7 @@ function Auth({ register }) {
                     <div></div>
                     <div className='flex justify-center items-center flex-col p-2'>
                         <h3 className='text-3xl mb-5 font-bold '>BOOK STORE</h3>
-                        <form className='w-full bg-gray-600 p-10 flex justify-center items-center flex-col' action="">
+                        <form className='w-full bg-gray-500 p-10 flex justify-center items-center flex-col' action="">
 
                             <div style={{ width: '70px', height: '70px', borderRadius: '50%' }} className='border border-amber-50'>
                                 <FontAwesomeIcon icon={faUser} className='text-white ms-5 mt-4 fa-2x' />
@@ -194,7 +194,7 @@ function Auth({ register }) {
                             {!register ? <h1 className='text-white mt-5 mb-8 text-3xl'>Login</h1>
                                 : <h1 className='text-white mt-5 mb-8 text-3xl'>Register</h1>}
 
-                            {register && <div className='mb-5 w-full mt-8'>
+                            {register && <div className='mb-5 w-full  mt-8'>
                                 <input name="username" type="text" placeholder='Username' className={`p-2 rounded w-full border-2 ${errorUser ? "border-red-500" : "border-white text-white"}`}
                                     onChange={handleChange} />
                                 {errorUser && <p className="text-red-500 text-sm mt-1">{errorUser}</p>}
@@ -211,7 +211,9 @@ function Auth({ register }) {
                                 <input name="password" type={showpassword ? "text" : "password"} placeholder='Password' className={`p-2 rounded w-full border-2 ${errorPass ? "border-red-500" : "border-white text-white"}`}
                                     onChange={handleChangePassword} />
 
-                                {!showpassword ? <FontAwesomeIcon icon={faEyeSlash} onClick={() => setShowpassword(true)} style={{ marginTop: '11px', marginLeft: '30px' }} className='me-2  rounded-4xl border border-white' /> : <FontAwesomeIcon icon={faEye} onClick={() => setShowpassword(false)} style={{ marginTop: '11px', marginLeft: '30px' }} className='me-2 rounded-4xl  border border-white' />}
+                                {!showpassword ? 
+                                <div className='border-2 rounded border-white'><FontAwesomeIcon icon={faEyeSlash} onClick={() => setShowpassword(true)} style={{ marginTop: '11px', marginLeft: '30px' }} className='me-2 rounded-4xl border border-white' /> </div>
+                                : <div className='border-2 rounded border-white'><FontAwesomeIcon icon={faEye} onClick={() => setShowpassword(false)} style={{ marginTop: '11px', marginLeft: '30px' }} className='me-2 rounded-4xl  border border-white' /></div>}
 
                             </div>
                             {errorPass && <p className="text-red-500 text-sm mt-1">{errorPass}</p>}

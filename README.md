@@ -29,6 +29,13 @@ frontend github repository: https://github.com/amrutharaj20393/bookreview_fronte
 backend github repository:https://github.com/amrutharaj20393/bookreview_backend.git
 
 vercel link:https://bookreview-frontend-kappa.vercel.app/
+
+render link:https://bookreview-backend-agu7.onrender.com
+
+    user details
+
+emailid:amrutha@gmail.com
+password:amrutha123
 # Configure Environment Variables
 
 DATABASE=mongodb+srv://amrutharaj20393:amrutha@cluster0.qakhgut.mongodb.net/bookstore?retryWrites=true&w=majority&appName=Cluster0
@@ -51,7 +58,7 @@ GET     /allhomebook      get latest 4 book details for home page
 
 ## Screenshots
 
-![LoginPage Screenshot](./assets/loginimage.png)
+![LoginPage Screenshot](./assets/loginpage.png)
 ![Register Screenshot](./assets/registerpage.png)
 ![Homepage Screenshot](./assets/homepage.png)
 ![allBooks Screenshot](./assets/allBooks.png)
